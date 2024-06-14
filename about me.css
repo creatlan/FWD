@@ -92,11 +92,18 @@ main {
     margin: 20px 0;
 }
 
+.content-about{
+    display: flex;
+    flex-direction: horizontal; 
+    align-items: center;  
+}
+
 .about-text {
-    width: 60%;
+    width: 65%;
 }
 
 .about-img {
+    margin-left: 60px;
     width: 30%;
     display: flex;
     justify-content: center;
