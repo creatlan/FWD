@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    font-family: "Fraunces", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.project ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project ul li {
+    color: #888;
+    margin: 10px 0;
+}
+
+.project p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li .nav-link {
+    background: none;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li .nav-link.active {
+    background: black;
+    color: white;
+}
+
+main {
+    padding: 80px 20px 20px;
+}
+
+
+.intro {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+.intro h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.intro p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.carousel img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.nav-button {
+    background-color: #666;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #666;
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
+footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact, .social-media {
+    text-align: left;
+}
+
+.contact button {
+    background: black;
+    color: white;
+    padding: 15px 30px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+    transition: background 0.3s, transform 0.2s;;
+}
+
+.contact button:hover {
+    background: #333;
+    transform: scale(1.05); 
+}
+
+.contact button:active {
+    background: #555;
+    transform: scale(1.02); 
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.social-media ul li a img {
+    width: 30px; 
+    height: 30px;
+    margin-left: 4px; 
+    margin-right: 4px;
+    transition: transform 0.2s; 
+}
+
+.social-media ul li a img:hover {
+    transform: scale(1.1); 
+}
+
+.social-media ul li a img:active {
+    transform: scale(0.95);
+}
+
