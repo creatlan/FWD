@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
 body {
     font-family: "Fraunces", sans-serif;
     margin: 0;
@@ -50,72 +51,6 @@ main {
 }
 
 
-.intro {
-    text-align: left;
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-weight: bolder;
-}
-
-
-.intro h1 {
-    text-align: left;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #000;
-    font-weight: bolder;
-}
-
-.intro h2 {
-    text-align: left;
-    font-size: 1em;
-    color: #666;
-    margin-bottom: 20px;
-    font-weight: normal;
-}
-
-.intro p {
-    text-align: left;
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
-    font-weight: normal;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.content-about{
-    display: flex;
-    flex-direction: horizontal; 
-    align-items: center;  
-}
-
-.about-text {
-    width: 65%;
-}
-
-.about-img {
-    margin-left: 60px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
 footer {
     background: #fff;
     border-top: 1px solid #ddd;
@@ -126,20 +61,72 @@ footer {
     flex-wrap: wrap;
 }
 
+
+/* Add styles for the comic container and layout */
+#comic-container {  
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-left: 10px; 
+    margin-right: 10px;
+  }
+  
+  
+  #comic-container img {
+    align-items: center;
+    width: 80%;
+    height: auto;
+  }
+
+  #comic-container h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+    color: #000;
+    font-weight: bolder;
+  }
+  
+
+    #comic-container h2 {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+  
+  #comic-container p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding-left: 10px; 
+    padding-right: 10px; 
+  }
+  
+
+
 .contact, .social-media {
     text-align: left;
 }
 
 .contact button {
+    font-weight: bold;
     background: black;
     color: white;
-    padding: 15px 30px; 
+    padding: 15px 30px; /* Increased padding */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
     font-size: 1em;
-    transition: background 0.3s, transform 0.2s;;
+    transition: background 0.3s, transform 0.2s;
 }
 
 .contact button:hover {
@@ -164,17 +151,18 @@ footer {
 }
 
 .social-media ul li a img {
-    width: 30px; 
+    width: 30px; /* Adjust the width as needed */
     height: 30px;
     margin-left: 4px; 
     margin-right: 4px;
-    transition: transform 0.2s; 
+    transition: transform 0.2s; /* Smooth hover effect */
 }
 
 .social-media ul li a img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 .social-media ul li a img:active {
-    transform: scale(0.95);
+    transform: scale(0.95); /* Slightly shrink on click */
 }
+

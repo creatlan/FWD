@@ -138,6 +138,7 @@ footer {
 }
 
 .contact button {
+    font-weight: bold;
     background: black;
     color: white;
     padding: 15px 30px; /* Increased padding */
@@ -146,7 +147,7 @@ footer {
     cursor: pointer;
     margin-top: 10px;
     font-size: 1em;
-    transition: background 0.3s, transform 0.2s;;
+    transition: background 0.3s, transform 0.2s;
 }
 
 .contact button:hover {
