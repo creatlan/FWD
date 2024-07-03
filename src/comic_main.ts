@@ -63,4 +63,3 @@ async function displayXKCDComic(): Promise<void> {
 }
 
 window.onload = displayXKCDComic;
-z
