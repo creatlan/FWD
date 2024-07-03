@@ -19,6 +19,50 @@ header {
     left: 0;
     z-index: 1000;
 }
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.project ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project ul li {
+    color: #888;
+    margin: 10px 0;
+}
+
+.project p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
 
 nav ul {
     list-style: none;
@@ -51,6 +95,70 @@ main {
 }
 
 
+.intro {
+    
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+.intro h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bolder;
+}
+
+.intro p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.carousel img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.nav-button {
+    background-color: #666;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #666;
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
 footer {
     background: #fff;
     border-top: 1px solid #ddd;
@@ -60,57 +168,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
-
-
-/* Add styles for the comic container and layout */
-#comic-container {  
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-weight: bolder;
-    margin-left: 10px; 
-    margin-right: 10px;
-  }
-  
-  
-  #comic-container img {
-    align-items: center;
-    width: 80%;
-    height: auto;
-  }
-
-  #comic-container h1 {
-    text-align: left;
-    font-size: 2.5em;
-    margin-bottom: 2rem;
-    color: #000;
-    font-weight: bolder;
-  }
-  
-
-    #comic-container h2 {
-    text-align: left;
-    font-size: 1.2em;
-    color: #666;
-    padding-left: 10px; 
-    padding-right: 10px;
-    font-weight: bold;
-}
-
-  
-  #comic-container p {
-    text-align: left;
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
-    font-weight: 400;
-    padding-left: 10px; 
-    padding-right: 10px; 
-  }
-  
-
 
 .contact, .social-media {
     text-align: left;
@@ -151,18 +208,18 @@ footer {
 }
 
 .social-media ul li a img {
-    width: 30px; /* Adjust the width as needed */
+    width: 30px; 
     height: 30px;
     margin-left: 4px; 
     margin-right: 4px;
-    transition: transform 0.2s; /* Smooth hover effect */
+    transition: transform 0.2s; 
 }
 
 .social-media ul li a img:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1); 
 }
 
 .social-media ul li a img:active {
-    transform: scale(0.95); /* Slightly shrink on click */
+    transform: scale(0.95);
 }
 

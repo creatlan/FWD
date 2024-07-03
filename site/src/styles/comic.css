@@ -20,6 +20,12 @@ header {
     z-index: 1000;
 }
 
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -51,78 +57,6 @@ main {
 }
 
 
-.intro {
-    text-align: left;
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-weight: bolder;
-    margin-left: 10px; 
-    margin-right: 10px; 
-}
-
-.intro h1 {
-    text-align: left;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #000;
-    font-weight: bolder;
-}
-
-.intro p {
-    text-align: left;
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
-    font-weight: normal;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    font-weight: normal;
-    margin-left: 10px; 
-    margin-right: 10px; 
-}
-
-.project {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow: hidden;
-    width: 300px;
-    text-align: left;
-}
-
-.project h2 {
-    text-align: left;
-    font-size: 1.2em;
-    color: #666;
-    padding-left: 10px; 
-    padding-right: 10px;
-    font-weight: bold;
-}
-
-.project p {
-    text-align: left;
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 20px;
-    font-weight: 400;
-    padding-left: 10px; 
-    padding-right: 10px; 
-}
-
-
-.project img {
-    width: 100%;
-    height: auto;
-}
-
 footer {
     background: #fff;
     border-top: 1px solid #ddd;
@@ -132,6 +66,57 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+/* Add styles for the comic container and layout */
+#comic-container {  
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-left: 10px; 
+    margin-right: 10px;
+  }
+  
+  
+  #comic-container img {
+    align-items: center;
+    width: 80%;
+    height: auto;
+  }
+
+  #comic-container h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 2rem;
+    color: #000;
+    font-weight: bolder;
+  }
+  
+
+    #comic-container h2 {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+  
+  #comic-container p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding-left: 10px; 
+    padding-right: 10px; 
+  }
+  
+
 
 .contact, .social-media {
     text-align: left;

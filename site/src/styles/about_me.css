@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
 body {
     font-family: "Fraunces", sans-serif;
     margin: 0;
@@ -20,43 +19,10 @@ header {
     z-index: 1000;
 }
 
-.container {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h1 {
-    text-align: left;
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #000;
-    font-weight: bolder;
-}
-
-.project ul {
-    list-style: none;
-    padding: 0;
-}
-
-.project ul li {
-    color: #888;
-    margin: 10px 0;
-}
-
-.project p {
-    text-align: left;
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
-    font-weight: normal;
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 nav ul {
@@ -91,8 +57,6 @@ main {
 
 
 .intro {
-    
-    text-align: left;
     margin-bottom: 30px;
     padding: 20px;
     background: #f9f9f9;
@@ -100,8 +64,9 @@ main {
     border-radius: 5px;
     font-weight: bolder;
     margin-left: 10px; 
-    margin-right: 10px; 
+    margin-right: 10px;
 }
+
 
 .intro h1 {
     text-align: left;
@@ -111,47 +76,53 @@ main {
     font-weight: bolder;
 }
 
+.intro h2 {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
 .intro p {
     text-align: left;
     font-size: 1.2em;
     color: #666;
     margin-bottom: 20px;
-    font-weight: normal;
+    font-weight: 400;
+    padding-left: 10px; 
+    padding-right: 10px; 
 }
 
-.carousel {
+.content {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin: 20px 0;
 }
 
-.carousel img {
-    max-width: 300px;
-    border-radius: 10px;
-}
-
-.nav-button {
-    background-color: #666;
-    border: none;
-    color: white;
-    font-size: 1.5em;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
+.content-about{
     display: flex;
-    align-items: center;
+    flex-direction: row; 
+    align-items: center;  
+}
+
+.about-text {
+    width: 65%;
+}
+
+.about-img {
+    margin-left: 60px;
+    width: 30%;
+    display: flex;
     justify-content: center;
-    transition: background-color 0.3s;
+    align-items: center;
 }
 
-.nav-button:hover {
-    background-color: #666;
-}
-
-.nav-button:focus {
-    outline: none;
+.about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
 
 footer {
@@ -217,4 +188,3 @@ footer {
 .social-media ul li a img:active {
     transform: scale(0.95);
 }
-

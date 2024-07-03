@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
 body {
     font-family: "Fraunces", sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     background-color: #f4f4f4;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -46,11 +53,13 @@ nav ul li .nav-link.active {
 }
 
 main {
+    flex: 1;
     padding: 80px 20px 20px;
 }
 
 
 .intro {
+    text-align: left;
     margin-bottom: 30px;
     padding: 20px;
     background: #f9f9f9;
@@ -58,9 +67,8 @@ main {
     border-radius: 5px;
     font-weight: bolder;
     margin-left: 10px; 
-    margin-right: 10px;
+    margin-right: 10px; 
 }
-
 
 .intro h1 {
     text-align: left;
@@ -70,17 +78,45 @@ main {
     font-weight: bolder;
 }
 
-.intro h2 {
+.intro p {
+    text-align: left;
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-weight: normal;
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+.project {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.project h2 {
     text-align: left;
     font-size: 1.2em;
     color: #666;
     padding-left: 10px; 
     padding-right: 10px;
+    font-weight: bold;
 }
 
-.intro p {
+.project p {
     text-align: left;
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: #666;
     margin-bottom: 20px;
     font-weight: 400;
@@ -88,35 +124,10 @@ main {
     padding-right: 10px; 
 }
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-}
 
-.content-about{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;  
-}
-
-.about-text {
-    width: 65%;
-}
-
-.about-img {
-    margin-left: 60px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-img img {
-    max-width: 100%;
+.project img {
+    width: 100%;
     height: auto;
-    border-radius: 1rem;
 }
 
 footer {
@@ -168,17 +179,18 @@ footer {
 }
 
 .social-media ul li a img {
-    width: 30px; 
+    width: 30px; /* Adjust the width as needed */
     height: 30px;
     margin-left: 4px; 
     margin-right: 4px;
-    transition: transform 0.2s; 
+    transition: transform 0.2s; /* Smooth hover effect */
 }
 
 .social-media ul li a img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 .social-media ul li a img:active {
-    transform: scale(0.95);
+    transform: scale(0.95); /* Slightly shrink on click */
 }
+
