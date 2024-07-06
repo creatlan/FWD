@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FWD/static/css/main.aa25785e.css",
+    "main.js": "/FWD/static/js/main.893f9bd0.js",
+    "static/js/453.adc34edb.chunk.js": "/FWD/static/js/453.adc34edb.chunk.js",
+    "static/media/about_me_own.png": "/FWD/static/media/about_me_own.93a4962f5b5551116d82.png",
+    "static/media/polynomial_project.png": "/FWD/static/media/polynomial_project.0d6b5caf11b2e772dc12.png",
+    "static/media/orbit_project.jpg": "/FWD/static/media/orbit_project.f1e920d6208871739fac.jpg",
+    "static/media/index_frontend.jpg": "/FWD/static/media/index_frontend.43bace82d21ece28bb22.jpg",
+    "static/media/index_tutor.jpg": "/FWD/static/media/index_tutor.58e6b870a23b90eefb77.jpg",
+    "static/media/index_backend.jpg": "/FWD/static/media/index_backend.3b6d5679fdc32aec2dd9.jpg",
+    "static/media/calculator_project.jpg": "/FWD/static/media/calculator_project.85b365934751fbea60e5.jpg",
+    "static/media/index_tester.jpg": "/FWD/static/media/index_tester.626deef7f58e24f30eef.jpg",
+    "static/media/gmail.png": "/FWD/static/media/gmail.00ed961c46558d7379b4.png",
+    "index.html": "/FWD/index.html",
+    "main.aa25785e.css.map": "/FWD/static/css/main.aa25785e.css.map",
+    "main.893f9bd0.js.map": "/FWD/static/js/main.893f9bd0.js.map",
+    "453.adc34edb.chunk.js.map": "/FWD/static/js/453.adc34edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa25785e.css",
+    "static/js/main.893f9bd0.js"
+  ]
+}
