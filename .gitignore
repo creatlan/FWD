@@ -1,7 +1,1 @@
-node-modules/
-/node_modules/
-/my-react-app/
-/my-app/
-.next/
-out/
-.env
+node_modules
